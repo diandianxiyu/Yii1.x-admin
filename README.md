@@ -1,1 +1,2 @@
-# Yii1.x-admin
+
+admin use Yii1
