@@ -1,6 +1,11 @@
 assets/*
+!assets/css
+!assets/fonts
+!assets/img
+!assets/plugins
+!assets/scripts
+!assets/upload
 !assets/.gitignore
 protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
-themes/classic/views/
