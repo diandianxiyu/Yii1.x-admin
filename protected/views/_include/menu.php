@@ -21,29 +21,15 @@
 					</form>
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
-				
-                                                            <?php 
-                                                            
-                                                            //var_dump($_SESSION);
+                                                            <?php
                                                                 $n=new AdminRBAC();
-                                                                //var_dump($n->chkAccess("menu"));
                                                                 echo($n->getMenu());
-                                                               
-                                                               
-                                                              // var_dump(Menu::data());
                                                                     ?>
-				
 			</ul>
 			<!-- END SIDEBAR MENU -->
 		</div>
 		<!-- END SIDEBAR -->
-               
-              <?php
-              
-              //在菜单进行控制，将srbac的都放到这边
-              
-              
-              ?>  
+
                 <input id="srbacurl" type="hidden" value="<?php echo Yii::app()->createUrl("srbac") ?>">
                 <script src="<?php echo Yii::app()->baseUrl?>/assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>  
         <script type="text/javascript">

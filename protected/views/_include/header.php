@@ -28,9 +28,6 @@
 					</a>
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo Yii::app()->createUrl("/adminis/profile/index") ?>"><i class="fa fa-user"></i> 个人资料</a></li>
-						<li><a href="page_calendar.html"><i class="fa fa-calendar"></i> 我的日记</a></li>
-						<li><a href="inbox.html"><i class="fa fa-envelope"></i> 我的收件箱 <span class="badge badge-danger">3</span></a></li>
-						<li><a href="#"><i class="fa fa-tasks"></i> 我的任务 <span class="badge badge-success">7</span></a></li>
 						<li class="divider"></li>
 						<li><a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-move"></i> 全屏</a></li>
 						<li><a href="<?php echo Yii::app()->createUrl("/adminis/public/lock") ?>"><i class="fa fa-lock"></i> 锁屏</a></li>

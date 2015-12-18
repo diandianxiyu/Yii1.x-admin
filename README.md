@@ -34,6 +34,7 @@ QUICK START
 - Set up the corresponding server virtual machine to the project root directory.
 - Import database file, file location in ```protected/data/yii_admin.sql```
 - Modify the database configuration file in the configuration file, the file is located in ```protected/config/main.php```
+- username is ```admins```  , password is  ```123456```
 
 Note, please open your server's rewire module, to ensure that the project address of the effective jump
 
