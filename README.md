@@ -2,6 +2,13 @@
 =============================
  Yii - a high-performance component-based PHP framework.
 
+DEMO-URL
+------------
+ http://demo-yii1admin.coderfix.cn/
+ username admins
+ password 123456
+
+
 INSTALLATION
 ------------
 
