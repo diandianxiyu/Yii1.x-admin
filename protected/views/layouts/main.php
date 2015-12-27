@@ -45,9 +45,8 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
 <body class="page-header-fixed">
-	
-        <!-- 菜单开始 -->
-        
+
+
         <?php  if(!($this->action->id != "frontpage" && $this->id == "authitem")){  $this->renderPartial('//_include/header');}?>
         <!-- 菜单结束 -->
               <!-- 顶部结束 -->
@@ -115,7 +114,8 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	<!-- BEGIN FOOTER -->
 	<div class="footer">
 		<div class="footer-inner">
-			2013 &copy; <?php echo $this->_author ?> - <?php echo $this->_cmsName ?>.
+			2013 &copy; <?php echo $this->_author ?> - <?php echo $this->_cmsName ?>.  <a href="https://github.com/diandianxiyu/Yii1.x-admin" >Fork me on GitHub</a>
+
 		</div>
 		<div class="footer-tools">
 			<span class="go-top">
